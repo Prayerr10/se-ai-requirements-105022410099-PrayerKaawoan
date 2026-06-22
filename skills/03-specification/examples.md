@@ -27,7 +27,7 @@ Artifact: outputs/reviewed/03-requirements.md
 - Measure and threshold: Response time <= 2 seconds for >= 95% of requests
 - Operating context: ASSUMPTION — workload remains an OPEN QUESTION
 - Verification method: Performance test
-- Source: EL-04
+- Source: No confirmed elicitation source — validation required
 - Status: ASSUMPTION
 
 Artifact: outputs/reviewed/04-user-stories.md
@@ -39,7 +39,7 @@ Artifact: outputs/reviewed/04-user-stories.md
 - Status: FACT
 ### Acceptance Criteria
 - AC-US01-01: Given a Lecturer entering sourced task details, when the Lecturer saves them, then the system records those details for the task.
-- AC-US01-02: Given recorded task details, when a Student opens the task, then the system displays the recorded details.
+- AC-US01-02: Given recorded task details, when the stored record is inspected during verification, then each stored value matches the Lecturer's submitted value.
 
 ## Open Questions
 - OPEN QUESTION: What workload must be used to verify NFR-01?

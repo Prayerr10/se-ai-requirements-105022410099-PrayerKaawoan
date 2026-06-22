@@ -132,7 +132,7 @@ Artifact: outputs/reviewed/03-requirements.md
 - Measure and threshold: Confirmation time <= 3 seconds for >= 95% of attempts
 - Operating context: ASSUMPTION — test workload requires Lecturer confirmation
 - Verification method: Performance test
-- Source: EL-05
+- Source: No confirmed elicitation source — validation required
 - Status: ASSUMPTION
 
 Artifact: outputs/reviewed/04-user-stories.md
@@ -144,7 +144,7 @@ Artifact: outputs/reviewed/04-user-stories.md
 - Status: FACT
 #### Acceptance Criteria
 - AC-US01-01: Given an identified Student and a selected task, when the Student submits work, then the system records the submission against that task.
-- AC-US01-02: Given a recorded submission, when the Student views its status, then the system displays that submission as recorded.
+- AC-US01-02: Given a recorded submission, when the stored record is inspected during verification, then its task association and submitted value match the received input.
 
 ### Open Questions
 - OPEN QUESTION: What test workload should govern NFR-01?
