@@ -136,12 +136,12 @@ Use the Requirements Elicitation skill. Read outputs/reviewed/01-inception.md an
 | Finding ID | Stakeholder | Need or Observation | Explicit/Implicit | Evidence Label | Source ID | Confidence |
 |---|---|---|---|---|---|---|
 | EL-01 | Lecturer | Needs to create assignments and set deadlines. | Explicit | FACT | EL-SRC-01 | High |
-| EL-02 | Student | May need deadline reminders. | Implicit | ASSUMPTION | EL-SRC-01 | Low |
+| EL-02 | Lecturer | May need to revise a deadline after publishing an assignment. | Implicit | ASSUMPTION | EL-SRC-01 | Low |
 
  ## Information Gaps and Follow-up Questions
 | Question ID | Target Stakeholder | Related Finding ID | Question | Technique | Status |
 |---|---|---|---|---|---|
-| EL-Q-01 | Student | EL-02 | Which deadline notifications, if any, would help you monitor assignments? | Follow-up interview | OPEN QUESTION |
+| EL-Q-01 | Lecturer | EL-02 | May a published assignment deadline be revised? | Follow-up interview | OPEN QUESTION |
 
  ## Elicitation Summary
 - Confirmed findings: EL-01.

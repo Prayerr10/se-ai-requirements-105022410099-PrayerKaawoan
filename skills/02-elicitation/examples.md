@@ -16,6 +16,7 @@ Use skills/02-elicitation/SKILL.md. Read outputs/reviewed/01-inception.md and in
 |---|---|---|---|
 | EL-SRC-01 | inputs/interview-answers.md | Student answer about viewing tasks and monitoring deadlines | FACT |
 | EL-SRC-02 | inputs/interview-answers.md | Administrator answer about system configuration | FACT |
+| EL-SRC-03 | inputs/interview-answers.md | Lecturer answer about assignment creation and deadlines | FACT |
 
 ## Elicitation Approach
 | Technique | Target | Purpose | Rationale |
@@ -28,7 +29,7 @@ Use skills/02-elicitation/SKILL.md. Read outputs/reviewed/01-inception.md and in
 |---|---|---|---|---|---|---|
 | EL-01 | Student | Needs to view tasks and monitor deadlines. | Explicit | FACT | EL-SRC-01 | High |
 | EL-02 | Administrator | Needs to manage system configuration. | Explicit | FACT | EL-SRC-02 | High |
-| EL-03 | Lecturer | May need to revise a deadline after publishing an assignment. | Implicit | ASSUMPTION | EL-SRC-01 | Low |
+| EL-03 | Lecturer | May need to revise a deadline after publishing an assignment. | Implicit | ASSUMPTION | EL-SRC-03 | Low |
 
 ## Conflicts and Dependencies
 | Item ID | Related Finding IDs | Description | Status |
@@ -44,12 +45,12 @@ Use skills/02-elicitation/SKILL.md. Read outputs/reviewed/01-inception.md and in
 ## Constraints
 | Item ID | CONSTRAINT | Source ID |
 |---|---|---|
-| EL-C-01 | Available evidence does not define the deadline revision policy. | EL-SRC-01 |
+| EL-C-01 | Available evidence does not define the deadline revision policy. | EL-SRC-03 |
 
 ## Assumptions Requiring Validation
 | Item ID | ASSUMPTION | Source ID | Validation Question |
 |---|---|---|---|
-| EL-A-01 | Lecturer may revise a published deadline. | EL-SRC-01 | May a published assignment deadline be revised? |
+| EL-A-01 | Lecturer may revise a published deadline. | EL-SRC-03 | May a published assignment deadline be revised? |
 
 ## Elicitation Summary
 - Confirmed findings: EL-01 and EL-02.
