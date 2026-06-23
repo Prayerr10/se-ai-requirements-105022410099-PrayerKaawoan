@@ -1,4 +1,9 @@
 # AI Output Review
+## Review Method
+
+The student reviewed each raw AI output against the official assignment case, the relevant input files, the applicable SKILL.md, and the assignment requirements.
+
+AI was used to identify possible issues and suggest revisions. However, the student made the final decision to accept, reject, revise, or retain each item. All approved corrections were then applied only to the reviewed outputs, while raw AI outputs remained unchanged.
 
 ## Skill 1 — Project Inception and Stakeholder Discovery
 
@@ -29,7 +34,41 @@ Input files:
 
 ### 5. Student review decision
 
-Revise before accepting as reviewed inception output.
+#### Skill 1
+The student reviewed the raw inception output against `CASE.md`, `inputs/stakeholder-notes.md`, and `inputs/assumptions.md`.
+
+Decision: Revise before acceptance.
+
+The student decided that integrations could not be classified as out of scope because the official case does not explicitly exclude them. The student also decided that reporting remains a confirmed case area, while its audience, format, and reporting period must remain labelled as OPEN QUESTION.
+
+#### Skill 2
+The student reviewed the raw elicitation output against `outputs/reviewed/01-inception.md`, `inputs/interview-answers.md`, and `inputs/assumptions.md`.
+
+Decision: Keep confirmed findings, but revise unsupported findings into ASSUMPTION items or OPEN QUESTION follow-up items.
+
+The student rejected deadline reminders as a confirmed Student need because the official case does not mention reminder functionality. The student decided that unclear dependencies and unverified stakeholder needs must remain explicitly labelled instead of being treated as confirmed elicitation findings.
+
+#### Skill 3
+The student reviewed the raw specification output against `outputs/reviewed/02-elicitation.md`, `CASE.md`, `inputs/assumptions.md`, and the minimum assignment criteria.
+
+Decision: Revise requirements and user stories before acceptance.
+
+The student decided to separate course management and system configuration because both are explicitly assigned to the Administrator in the official case. The student also rejected vague NFR wording and required every NFR to include a measurable threshold or verification method. Any measurement not confirmed by the case must remain labelled as ASSUMPTION.
+
+#### Skill 4
+The student reviewed the raw prioritization output against the reviewed functional requirements and user stories.
+
+Decision: Revise MoSCoW classifications and the decision log before acceptance.
+
+The student decided that grading and feedback functions should not automatically receive Must priority without considering their dependency on submission data and unresolved visibility policy. The student also decided that configuration management should remain Should because its detailed scope is still unresolved.
+
+
+#### Skill 5 
+The student reviewed the raw validation and change-management output against the reviewed requirements, user stories, prioritization decisions, and unresolved policy questions.
+
+Decision: Keep the change request as evidence, but revise the recommendation to NEEDS CLARIFICATION.
+
+The student rejected automatic acceptance of post-deadline resubmission because deadline and resubmission policies are not confirmed in the official case. The student decided that incomplete evidence must remain visible during validation and cannot be recorded as a full PASS.
 
 ### 6. Student corrections applied
 
