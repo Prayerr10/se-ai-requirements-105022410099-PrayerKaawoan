@@ -46,3 +46,7 @@ Artifact: outputs/reviewed/04-user-stories.md
 ```
 
 This abbreviated example demonstrates structure only. A real run must satisfy the assignment minimums using supported evidence; it must not invent content to fill gaps.
+
+## Reuse Example Note
+
+For a different sourced case, keep the stakeholder roles from that case. For example, a Library Reservation System may use Member and Librarian if those roles are explicitly supplied in reviewed elicitation evidence. Do not rewrite them as Lecturer, Student, or Administrator. If details such as reservation period, fine policy, notification method, or account verification are missing, keep them as `ASSUMPTION` or `OPEN QUESTION` rather than converting them into confirmed requirements.

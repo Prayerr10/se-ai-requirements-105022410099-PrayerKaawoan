@@ -59,3 +59,7 @@ OPEN QUESTION labels; do not create requirements or downstream artefacts.
 ```
 
 This excerpt illustrates the required classification and handoff. It is not a final inception output and does not establish requirements, user stories, priorities, diagrams, traceability, or change decisions.
+
+## Reuse Example Note
+
+For a different sourced case, preserve the stakeholder names from that case. For example, a Clinic Appointment System may use Patients, Doctors, and Clinic staff if those roles are explicitly supplied. Do not rename those roles to Lecturer, Student, or Administrator, and do not add reminders, telemedicine, payment, or insurance integration unless the case supplies them or they are explicitly labeled `ASSUMPTION` or `OPEN QUESTION`.

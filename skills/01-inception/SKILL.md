@@ -16,18 +16,18 @@ Use at the beginning of Requirements Engineering, before interview planning or d
 ## Inputs
 
 - `CASE.md`: official case description, initial objectives, known facts, information boundaries, and open questions.
-- `inputs/stakeholder-notes.md`: initial needs, interests, and information gaps for Lecturer, Student, and Administrator.
-- `inputs/assumptions.md`: registered `FACT`, `ASSUMPTION`, `CONSTRAINT`, and `OPEN QUESTION` entries.
+- Stakeholder notes or equivalent initial stakeholder evidence: initial needs, interests, and information gaps for the stakeholders named in the case.
+- Assumptions register or equivalent context: registered `FACT`, `ASSUMPTION`, `CONSTRAINT`, and `OPEN QUESTION` entries.
 
 ## Required Context
 
-Read all three input files completely before analysis. Treat `CASE.md` as the case boundary and use the other files only to organize or qualify that evidence. If re-running the skill, also read the latest inception draft supplied by the user and identify changed source statements. Do not read later-stage requirements artefacts as evidence for inception.
+Read all supplied input files completely before analysis. Treat `CASE.md` or the official case text as the case boundary and use the other files only to organize or qualify that evidence. Identify canonical stakeholder names from the supplied case instead of assuming fixed roles. For the Student Task Management System assignment, use Lecturer, Student, and Administrator exactly. If re-running the skill, also read the latest inception draft supplied by the user and identify changed source statements. Do not read later-stage requirements artefacts as evidence for inception.
 
 ## Workflow
 
 1. Verify that every required input exists, is readable, and identifies its source or epistemic label.
 2. Extract only statements supported by the inputs; preserve existing identifiers where present and record the source file for every substantive statement.
-3. Normalize stakeholder names to Lecturer, Student, and Administrator. Do not infer additional stakeholders; record them as `OPEN QUESTION` candidates unless a source confirms them.
+3. Normalize stakeholder names to the roles explicitly named in the case. For the Student Task Management System assignment, normalize to Lecturer, Student, and Administrator. Do not infer additional stakeholders; record them as `OPEN QUESTION` candidates unless a source confirms them.
 4. Summarize the case context and initial objectives without converting them into functional requirements, non-functional requirements, user stories, or solution designs.
 5. For each stakeholder, separate stated needs from interests and unresolved information gaps. Preserve `ASSUMPTION` labels on interpretations not directly supported by the official case.
 6. Consolidate scope as `In Scope`, `Out of Scope`, or `Unresolved`. Place an item in `Out of Scope` only when a source explicitly excludes it; otherwise use `Unresolved`.
@@ -52,15 +52,15 @@ Return one Markdown draft with this structure:
  ## Initial Objectives
 
  ## Stakeholder Analysis
- ### Lecturer
+ ### <Stakeholder 1>
  #### Needs
  #### Interests
  #### Information Gaps
- ### Student
+ ### <Stakeholder 2>
  #### Needs
  #### Interests
  #### Information Gaps
- ### Administrator
+ ### <Stakeholder 3>
  #### Needs
  #### Interests
  #### Information Gaps
@@ -85,7 +85,7 @@ The output is a draft for human review, not an approved baseline. It must not co
 ## Rules
 
 - Use only evidence contained in the required inputs.
-- Use Lecturer, Student, and Administrator exactly and consistently.
+- Use the stakeholder names explicitly supplied by the case exactly and consistently; for the Student Task Management System assignment, use Lecturer, Student, and Administrator exactly.
 - Prefix or otherwise visibly label every classified statement as `FACT`, `ASSUMPTION`, `CONSTRAINT`, or `OPEN QUESTION`.
 - Never invent a fact. Label any interpretation not directly supported by the official case as `ASSUMPTION` and cite its source context.
 - Keep objectives at the outcome level; do not write final functional or non-functional requirements.
@@ -99,7 +99,7 @@ The output is a draft for human review, not an approved baseline. It must not co
 
 - All three required input files were read completely.
 - Every substantive statement has a source and correct epistemic label.
-- Lecturer, Student, and Administrator appear consistently, with needs separated from interests.
+- Sourced stakeholder names appear consistently, with needs separated from interests.
 - Objectives, scope, assumptions, constraints, and open questions are internally consistent.
 - No `ASSUMPTION` is presented as `FACT`.
 - No unresolved item is silently placed in or out of scope.
@@ -113,7 +113,7 @@ Stop and request clarification without producing a complete inception draft when
 
 - any required input file is missing or unreadable;
 - the official case cannot be distinguished from added interpretation;
-- stakeholder terminology cannot be reconciled with Lecturer, Student, and Administrator;
+- stakeholder terminology cannot be reconciled with the roles explicitly named in the case;
 - critical input statements contradict each other and neither source has precedence;
 - a requested conclusion requires inventing facts or resolving an `OPEN QUESTION` without evidence; or
 - source provenance is insufficient to classify key statements.

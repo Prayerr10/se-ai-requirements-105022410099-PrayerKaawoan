@@ -21,7 +21,7 @@ Use after Skill 2 has produced and a human has reviewed `outputs/reviewed/02-eli
 
 ## Required Context
 
-Read the complete reviewed Skill 2 output before drafting. Consult upstream files only to verify wording, source, stakeholder, or label; never use an upstream statement to override the reviewed elicitation result silently. Preserve the stakeholder names `Lecturer`, `Student`, and `Administrator`. Treat unresolved `OPEN QUESTION` entries as gaps, not requirements.
+Read the complete reviewed Skill 2 output before drafting. Consult upstream files only to verify wording, source, stakeholder, or label; never use an upstream statement to override the reviewed elicitation result silently. Preserve the stakeholder names exactly as they appear in the reviewed elicitation evidence. For the Student Task Management System assignment, use `Lecturer`, `Student`, and `Administrator`. Treat unresolved `OPEN QUESTION` entries as gaps, not requirements.
 
 ## Workflow
 
@@ -73,7 +73,7 @@ For `outputs/reviewed/04-user-stories.md`, use:
 ```markdown
 Title: User Stories
 ### US-01 — <short name>
-- Story: As a <Lecturer | Student | Administrator>, I want <capability>, so that <value>.
+- Story: As a <sourced stakeholder role>, I want <capability>, so that <value>.
 - Supports: FR-xx[, NFR-xx]
 - Source:
 - Status: FACT | ASSUMPTION | CONSTRAINT
@@ -88,7 +88,7 @@ Title: User Stories
 - Use only evidence in the supplied context; label every unsupported proposal `ASSUMPTION`.
 - Never convert an `OPEN QUESTION` into a requirement, rule, story, or acceptance criterion.
 - Preserve `CONSTRAINT` statements and distinguish them from required system behavior.
-- Use only `Lecturer`, `Student`, and `Administrator` for known stakeholder roles unless an additional role is explicitly sourced.
+- Use only stakeholder roles explicitly sourced in the reviewed elicitation evidence. For the Student Task Management System assignment, this means `Lecturer`, `Student`, and `Administrator`. Do not map unrelated test-case roles into assignment-specific roles.
 - Keep each requirement atomic, necessary, unambiguous, feasible, testable, and source-linked.
 - Avoid subjective terms such as “fast,” “easy,” “secure,” or “user-friendly” unless paired with a measurable criterion.
 - Write NFRs with explicit measures and verification methods.
@@ -102,6 +102,7 @@ Title: User Stories
 - Confirm every statement has a source, relevant stakeholder where applicable, and status label.
 - Confirm all FRs describe observable behavior and all NFRs contain a measurable threshold and verification method.
 - Confirm every user story expresses a stakeholder, capability, and value.
+- Confirm every user story uses a stakeholder role that appears in the reviewed elicitation evidence.
 - Confirm every story has at least two testable acceptance criteria linked to requirement IDs.
 - Confirm no `OPEN QUESTION` has been silently resolved and every unsupported statement is labeled `ASSUMPTION`.
 - Confirm the specification has no contradictions, duplicates, undefined terms, or ambiguous qualifiers.
@@ -110,7 +111,7 @@ Title: User Stories
 
 ## Failure Conditions
 
-Stop and request clarification when `outputs/reviewed/02-elicitation.md` is missing, empty, unreviewed, or too incomplete to support testable statements; when sources conflict and no approved resolution exists; when a measurable NFR cannot be derived; or when meeting an assignment minimum would require invented facts. List the blocking item, affected artifact, available evidence, and the precise `OPEN QUESTION` to resolve. Do not guess.
+Stop and request clarification when `outputs/reviewed/02-elicitation.md` is missing, empty, unreviewed, or too incomplete to support testable statements; when stakeholder roles cannot be identified from reviewed evidence; when sources conflict and no approved resolution exists; when a measurable NFR cannot be derived; or when meeting an assignment minimum would require invented facts. List the blocking item, affected artifact, available evidence, and the precise `OPEN QUESTION` to resolve. Do not guess.
 
 ## Example Invocation
 
