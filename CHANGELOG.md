@@ -1,5 +1,11 @@
 # Changelog
 
+## [Tahap I] Reflection and Final Submission Readiness
+
+- Added final reflection in `evaluation/reflection.md`.
+- Updated `README.md` with final artifact links, diagram links, evidence links, AI usage notes, and GitHub issue links.
+- Performed final compliance audit for repository structure, skills, AI evidence, requirements quality, diagram, traceability, GitHub Issues, and version history.
+
 ## [Tahap G] Skill Testing and Improvement
 
 - Tested `skills/01-inception/SKILL.md` using Clinic Appointment System.
