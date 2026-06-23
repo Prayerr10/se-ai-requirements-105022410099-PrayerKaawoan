@@ -84,7 +84,7 @@ Requirements in this document are derived from reviewed elicitation findings in 
 - Measure and threshold: Response time <= 2 seconds for >= 95% of Student assignment-list requests.
 - Operating context: `ASSUMPTION` — agreed test workload is not yet defined.
 - Verification method: Performance test using the agreed workload.
-- Source: FACT-08, EL-Q-10
+- Source: FACT-07, EL-Q-10
 - Status: ASSUMPTION
 
 ### NFR-02 — Role-based access control
@@ -93,7 +93,7 @@ Requirements in this document are derived from reviewed elicitation findings in 
 - Measure and threshold: 100% unauthorized role-action attempts denied in the access-control test suite.
 - Operating context: Known roles are Lecturer, Student, and Administrator.
 - Verification method: Role-based access-control tests.
-- Source: FACT-03, FACT-08, CONSTRAINT-04
+- Source: FACT-03, FACT-07, CONSTRAINT-04
 - Status: ASSUMPTION
 
 ### NFR-03 — Submission record availability
@@ -102,7 +102,7 @@ Requirements in this document are derived from reviewed elicitation findings in 
 - Measure and threshold: >= 99% retrievability during agreed test period.
 - Operating context: `ASSUMPTION` — reliability test period is not yet defined.
 - Verification method: Reliability test and retrieval audit.
-- Source: FACT-08, EL-05, EL-06
+- Source: FACT-07, EL-05, EL-06
 - Status: ASSUMPTION
 
 ### NFR-04 — Grade and feedback data integrity
@@ -111,7 +111,7 @@ Requirements in this document are derived from reviewed elicitation findings in 
 - Measure and threshold: 100% referential integrity for grade-feedback-submission links in the test set.
 - Operating context: Grade and feedback records created by Lecturer for Student submissions.
 - Verification method: Referential integrity test.
-- Source: FACT-08, EL-03
+- Source: FACT-07, EL-03
 - Status: ASSUMPTION
 
 ## Business Rules

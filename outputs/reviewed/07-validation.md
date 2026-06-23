@@ -69,7 +69,7 @@
 - Decision: Keep as ASSUMPTION.
 - Clarity: PASS — metric and threshold are explicit.
 - Completeness: OPEN QUESTION — agreed workload is not defined.
-- Consistency: PASS — supports performance concern in FACT-08 and Student assignment viewing.
+- Consistency: PASS — supports quality concern in FACT-07 and Student assignment viewing.
 - Feasibility: OPEN QUESTION — feasibility depends on workload and platform decisions not yet supplied.
 - Testability: PASS — performance test can verify the threshold once workload is defined.
 - Traceability: PASS — linked to Student assignment viewing and EL-Q-10.
@@ -93,4 +93,4 @@
 
 ## Human Review Status
 
-Pending student confirmation. This validation draft does not establish a final baseline.
+Reviewed for assignment submission draft. Items marked `ASSUMPTION` or `OPEN QUESTION` still require stakeholder confirmation before project implementation baseline approval.
