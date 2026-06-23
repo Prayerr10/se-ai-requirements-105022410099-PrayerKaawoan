@@ -1,1 +1,70 @@
-# Use Case Diagram Source Placeholder
+<mxfile host="app.diagrams.net" modified="2026-06-23T00:00:00.000Z" agent="Codex" version="24.7.17" type="device">
+  <diagram id="student-task-management-use-case" name="Use Case Diagram">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="system" value="Student Task Management System" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#ffffff;strokeColor=#000000;verticalAlign=top;fontStyle=1;fontSize=16;spacingTop=12;" vertex="1" parent="1">
+          <mxGeometry x="280" y="70" width="760" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-lecturer" value="Lecturer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="150" width="70" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-student" value="Student" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="420" width="70" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-admin" value="Administrator" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1145" y="330" width="90" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uc01" value="UC-01&#xa;Create Assignment" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="370" y="130" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uc02" value="UC-02&#xa;Set Assignment Deadline" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="370" y="230" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uc03" value="UC-03&#xa;View Assignments" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="370" y="365" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uc04" value="UC-04&#xa;Submit Assignment File" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="370" y="465" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05" value="UC-05&#xa;Monitor Assignment Status and Deadline" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="370" y="565" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uc06" value="UC-06&#xa;Record Grade and Feedback" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="660" y="180" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uc07" value="UC-07&#xa;Manage Users" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="750" y="390" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uc08" value="UC-08&#xa;Manage Courses and System Configuration" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="700" y="520" width="260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-l-uc01" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" edge="1" parent="1" source="actor-lecturer" target="uc01">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-l-uc02" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" edge="1" parent="1" source="actor-lecturer" target="uc02">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-l-uc06" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" edge="1" parent="1" source="actor-lecturer" target="uc06">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-s-uc03" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" edge="1" parent="1" source="actor-student" target="uc03">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-s-uc04" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" edge="1" parent="1" source="actor-student" target="uc04">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-s-uc05" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" edge="1" parent="1" source="actor-student" target="uc05">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-a-uc07" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" edge="1" parent="1" source="actor-admin" target="uc07">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-a-uc08" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" edge="1" parent="1" source="actor-admin" target="uc08">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
